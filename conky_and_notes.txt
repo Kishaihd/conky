@@ -1,0 +1,8 @@
+Conky:
+Monitor all network interfaces
+Display last few lines of logs irt
+Also unfuck whatever is going on with the bottom_left side.
+
+
+
+
