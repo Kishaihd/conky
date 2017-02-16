@@ -1,9 +1,9 @@
 #!/bin/bash
 # Starts the script
 
-sleep 5
-
-conky -dc ./conky_right.conf
-conky -dc ./conky_left.conf
-
+sleep 2
+conky -dc ~/conkies/lconky.conf
+sleep 2
+conky -dc ~/conkies/rconky.conf
+sleep 2
 exit
