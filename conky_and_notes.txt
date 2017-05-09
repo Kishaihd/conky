@@ -6,3 +6,6 @@ Also unfuck whatever is going on with the bottom_left side.
 
 
 
+${color2}│ │ └─${color1} local             ${color2}[${color1} ${texeci 3605 ip addr | grep "dynamic wlp3s0" | awk '{print $2}'} ${color2}]
+${color2}│ ├─${color1} ipv6
+${color2}│ │ └─${color1} local             ${color2}[${color1} ${texeci 3610 ip addr | grep "inet6 " | tail -n 1 | awk '{print $2}'} ${color2}]
