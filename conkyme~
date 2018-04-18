@@ -1,0 +1,11 @@
+#!/bin/bash
+# Starts the script
+
+# Take the output of the script, and filter it to find the process IDs, save those to a file, for use when killing conky?
+#conky -dc ~/conkies/lconky.conf #"conky: forked to background, pid is 1300"
+conky -dc ~/scripts/passages/conkies/lconky.conf
+conky -dc ~/scripts/passages/conkies/rconky.conf
+#sleep 1
+#conky -dc ~/conkies/rconky.conf
+sleep 2
+exit
